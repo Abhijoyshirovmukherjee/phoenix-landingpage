@@ -1,7 +1,7 @@
-*{
+[10:24 pm, 04/10/2020] Abhijoy Ece: *{
     margin:0px;
     padding:0px;
-    font-family: sans-serif;
+    font-family: cursive;
 }
 
 .hero{
@@ -43,8 +43,8 @@
 
 }
 .btn:hover{
-    background-color: white;
-  color: black;
+    background-color: black;
+  color: white;
 }
 .content{
     color:#fbfcfd;
@@ -57,6 +57,7 @@
 
 h1{
     font-size:80px;
+    font-family: sans-serif;
     margin:10px 0 30px;
     line-height: 80px;
 }
@@ -73,85 +74,4 @@ h1{
     justify-content: space-around;
     position: absolute;
     bottom: -70px;
-}
-
-@keyframes bubble{
-    0%{
-        transform:translateY(0);
-        opacity: 0;
-    }
-    50%{
-        
-        opacity: 1;
-    }
-    70%{
-  
-        opacity: 1;
-    }
-    100%{
-        transform:translateY(-80vh);
-        opacity: 0;
-    }
-}
-
-.bubbles img:nth-child(1){
-    animation-delay:2s;
-    width:5px;
-}
-.bubbles img:nth-child(2){
-    animation-delay:1s;
-    width:4px;
-}
-.bubbles img:nth-child(3){
-    animation-delay:3s;
-    width:5px;
-}
-.bubbles img:nth-child(4){
-    animation-delay:4.5s;
-    width:4px;
-}
-.bubbles img:nth-child(5){
-    animation-delay:3s;
-    width:4px;
-}
-.bubbles img:nth-child(6){
-    animation-delay:6s;
-    width:4px;
-}
-.bubbles img:nth-child(7){
-    animation-delay:3s;
-    width:5px;
-}
-.bubbles img:nth-child(8){
-    animation-delay:2s;
-    width:5px;
-    }
-    .bubbles img:nth-child(9){
-    animation-delay:3s;
-    width:5px;
-}.bubbles img:nth-child(10){
-    animation-delay:1s;
-    width:5px;
-}.bubbles img:nth-child(11){
-    animation-delay:2s;
-    width:5px;
-}.bubbles img:nth-child(12){
-    animation-delay:4s;
-    width:5px;
-}
-.bubbles img:nth-child(13){
-    animation-delay:1s;
-    width:5px;
-}.bubbles img:nth-child(14){
-    animation-delay:2s;
-    width:5px;
-}.bubbles img:nth-child(15){
-    animation-delay:1s;
-    width:5px;
-}.bubbles img:nth-child(16){
-    animation-delay:3s;
-    width:5px;
-}.bubbles img:nth-child(17){
-    animation-delay:1s;
-    width:5px;
 }
